@@ -1,0 +1,14 @@
+{
+"config1" : {
+"name": "experiment",
+"dataset" : "stackoverflow",
+"model" : "simple_rnn",
+"clients" : 10,
+"SEQ_LENGTH" : 100,
+"BATCH_SIZE" :8,
+"BUFFER_SIZE" : 100,
+"NUM_ROUNDS" : 250,
+"scheme" : "fedavg",
+"Number_of_Batches": 1000
+}
+}
